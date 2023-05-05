@@ -6,7 +6,7 @@
 /*
 /*	Authors: Jackson Mishuk
 /*	Date Created: 04/11/2023
-/*	Date Modified: 4/28/2023
+/*	Date Modified: 05/05/2023
 */
 
 #_______________________________________________________________________________________________
@@ -244,9 +244,9 @@ $session['week'], $session['startTime'], $session['endTime'], $session['startDat
         //used to make sure that the startDate occurs on or after the current day and that the durrationWeeks field is not empty and is a natural number
         //Returns: String (Empty if no problems. String with the errors if there is a problem)
         $currDate = date("Y-m-d");
-        /*if($currDate > $startDate){//IF: start date is before current day
+        if($currDate > $startDate){//IF: start date is before current day
             return "This program can not start in the past!";
-        }else*/ if(!validateEmpty($durrationWeeks) || $durrationWeeks <= 0){
+        }else if(!validateEmpty($durrationWeeks) || $durrationWeeks <= 0){
             return "The durration in weeks field is either not a valid number, or is empty!<br>";
         }
         return "";
