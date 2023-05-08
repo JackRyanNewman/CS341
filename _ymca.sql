@@ -48,7 +48,7 @@ CREATE TABLE `adult` (
 --
 
 INSERT INTO `adult` (`peopleID`, `userName`, `password`, `type`, `accountStatus`, `firstName`, `lastName`, `DOB`, `sex`, `address`, `ZIP`, `email`, `spouseID`) VALUES
-(00000001, 'User', '$2y$10$K0CpL8JhcJeOYC1PR2XEd.lWAwc.w.uX.vJLcY8nMAngmiQBcZ/H.', 'User', 1, 'Jackson', 'Mishuk', '2003-03-19', 'M', '11111 Adress row, Savage MN', 45678, 'jmishuk@gmail.com', 00000002),
+(00000001, 'User', '$2y$10$K0CpL8JhcJeOYC1PR2XEd.lWAwc.w.uX.vJLcY8nMAngmiQBcZ/H.', 'User', 1, 'Jackson', 'Mishuk', '2003-03-19', 'M', '11111 Adress row, Rochester MN', 45678, 'jman@gmail.com', 00000002),
 (00000002, 'Member', '$2y$10$K0CpL8JhcJeOYC1PR2XEd.lWAwc.w.uX.vJLcY8nMAngmiQBcZ/H.', 'Member', 1, 'Jack', 'Newman', '0420-11-16', 'M', '11111 Adress row, IN YOUR WALLS', 65535, 'jackman@gmail.com', 00000001),
 (00000003, 'Staff', '$2y$10$K0CpL8JhcJeOYC1PR2XEd.lWAwc.w.uX.vJLcY8nMAngmiQBcZ/H.', 'Staff', 1, 'Travis', 'Wiesner', '2000-06-09', 'M', '1800 steamer, stanley steemer makes your home cleaner', 09876, 'mail@mailmail.com', 00000004),
 (00000004, 'Admin', '$2y$10$K0CpL8JhcJeOYC1PR2XEd.lWAwc.w.uX.vJLcY8nMAngmiQBcZ/H.', 'Admin', 1, 'Abrar', 'Nizam', '2000-06-09', 'M', 'YOUR MOM', 09876, 'mail@mailmail.com', 00000003),
