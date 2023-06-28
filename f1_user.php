@@ -3,7 +3,7 @@
 /*  f1_user.php
 /*	This file contains methods that specifically modify & query data that is found in tables relating to people in the database.
 /*
-/*	Authors: Jackson Mishuk
+/*	Authors: Jackson Mishuk, Jack Newman
 /*	Date Created: 04/11/2023
 /*	Date Modified: 4/28/2023
 */
